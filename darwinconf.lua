@@ -8,7 +8,7 @@ DEPS = {
 
 -- Downloads once, then reuses the result!
 local cached_get_webpage = darwin.dtw.create_cache_function({
-    expiration = 300,  -- 5 minutes
+    expiration = darwin.dtw.INFINITY,  -- 5 minutes
     cache_dir = "./web_cache/",
     cache_name = "webpage",  -- Added cache_name
     callback = function(url)
