@@ -3,7 +3,7 @@
 #include "../imports/imports.fdeclare.h"
 //silver_chain_scope_end
 
-void start_best_end_point() {
+void start_payment_verifier() {
     // Function implementation for the best end point
     // This is a placeholder for the actual logic that will be implemented later
 }
