@@ -1,2 +1,8 @@
 payments.yml
 init.sql
+web_cache
+dependencies
+src/imports
+*.out
+rinha.c
+.vscode
